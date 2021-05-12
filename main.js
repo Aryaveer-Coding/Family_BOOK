@@ -21,7 +21,7 @@ if (i==4)
   i=0;
 }
 
-document.getElementById("names_array").innerHTML = Names[i];
+document.getElementById("member_names").innerHTML = names_array[i];
 document.getElementById("album").src = images[i];
 i++;
 }
